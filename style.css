@@ -1,0 +1,583 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+
+.header1{
+    height: 40px;       
+    background-color: #f5f7fa;
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    line-height: 40px;
+    color: #506a85;
+    border-bottom: 1px solid #e6e9ed;
+    
+
+}
+
+
+.social-icons {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    
+
+    
+}
+.social-icons li{
+    display: inline;
+    margin: 0 11px;
+
+    
+}
+.social-icons li:last-child{
+    margin-right: 0px;
+    
+}
+.address .sp-2{
+    margin-left: 28px;
+}
+.address .sp1 .fa1{
+    margin-right: 10px;
+}
+
+
+/* .header2{
+    height: 111px;
+    border-bottom: 1px solid #e6e9ed;
+    padding: 36px 0;
+    font-size: 15px;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+
+    
+} */
+.togglebtn{
+    display: none;
+}
+#check{
+    display: none;
+}
+.menu li{
+    margin: 0px 20px;
+    
+
+}
+.menu li:last-child{
+    margin-right: 0;
+}
+
+
+.menu li a:hover{
+
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+
+
+
+
+.banner{
+    height: 680px;
+    /* height: 875px; */
+
+    background-color: #425c78;
+    
+
+}
+
+.details p{
+    margin: 0;
+    padding: 0;
+    
+}
+.details .heady{
+    font-family: 'Lato';
+    font-size: 78px;
+    color: #ffffff;
+}
+.details .intro{
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    margin-top: 10px;
+    color: #a3b1bf;
+}
+.details button{
+    margin: 0;
+    padding: 0;
+}
+.details .mybtn{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 68px;
+    padding: 13px 35px;
+    background-color: #00bc9c;
+    color: #ffffff;
+
+}
+.featured{
+    width: 948px;
+    margin: 152px 0;
+    max-width: 100%;
+
+}
+.banner{
+    background-image: url(images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.services{
+    background-color: #ffffff;
+    padding: 125px 0;
+}
+
+.services .myservices{
+    width: 788px;
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+.myservices p {
+    margin: 0;    
+}
+.myservices .servicetitle {
+
+    font-family: 'Lato';
+    font-size: 44px;
+    font-weight: bold;
+    color: #506a85;
+    margin-bottom: 10px;
+
+}
+.myservices .servicedescription {
+
+
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: #8d9dae;
+
+}
+.servicecontent .service1 p{
+    margin: 0;
+}
+.servicecontent .service1 .servicefont{
+    font-family: 'Lato';
+    font-size: 26px;
+    font-weight: bold;
+    color: #506a85;
+    text-align: left;
+}
+.servicecontent .service1 .servicefont2{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    color: #73879c;
+    text-align: left;
+    margin-top: 15px;
+
+}
+.servicecontent .logo1{
+    float: left;
+    width:60px;
+    color: #00bc9c;
+    font-size: 50px;
+    
+   
+}
+
+.servicecontent .service1{
+    float: left;
+    width:  calc(100% - 60px);
+
+}
+.service-bottom{
+    margin-top: 80px;
+}
+
+/* gallery */
+.gallery{
+    background-color: #f2f5f7;
+    padding: 130px 0;
+
+}
+.gallery-text{
+    width: 760px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.gallery-text p{
+    margin: 0;
+}
+.gallery-text .gallerytitle{
+    font-family: 'Lato';
+    font-size: 44px;
+    font-weight: bold;
+    color: #506a85;
+}
+.gallery-text .gallerydescription{
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: #73879c;
+    margin-top: 15px;
+}
+.g-img:hover{
+    
+
+        box-shadow: -2px -5px 10px grey;
+            
+}
+
+/* .gallery .gallery-middle .g-img img{
+    height: 390px;
+    width: 576px;
+} */
+.gallery-middle{
+    margin-top: 82px;
+}
+    
+.img-text{
+    height: 111px;
+    background-color: #ffffff;
+    padding: 30px 0;
+}
+.img-text h4, .img-text p{
+    margin: 0;
+}
+.img-text .img-head{
+    color: #506a85;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-text .img-desc{
+    margin-top: 17px;
+    color: #73879c;
+    font-family: 'Source Sans Pro';
+    font-size: 8px;
+}
+
+.owl-carousel{
+        margin-top: 82px;
+}
+
+.owl-dots{
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+.owl-dots button{
+     border: 8px solid #506a85 !important;
+     border-radius: 50%;
+     margin: 0 5px;
+}
+.owl-dots button:active{
+    border-color: #00bc9c !important;
+}
+
+
+
+.getintouch{
+    padding: 130px 0;
+}
+.workcontainer{
+    width: 750px;
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+.workcontainer p, .workcontainer h3, .workcontainer button{
+   margin: 0;
+   padding: 0;
+}
+.workheading h3{
+    font-family: 'Lato';
+    font-size: 44px;
+    font-weight: bold;
+
+    color: #506a85;
+}
+.workdetail{
+    margin-top: 20px;
+}
+.workbtn{
+    margin-top: 40px;
+}
+.workdetail p{
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+  
+
+    color: #73879c;
+}
+.workbtn .mybtn{
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #00bc9c;
+    padding: 13px 35px;
+}
+.myfooter .myfooter1{
+    background-color: #2f4052;
+}
+
+.myfooter1{
+    padding: 75px 0;
+}
+.details h4,p{
+    margin: 0;
+}
+.details h4{
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+.details .footerlogo {
+    margin-top: 20px;
+}
+/* .footerlogo .img1{
+    float: left;
+    width: 130px;
+}
+.footerlogo .img2{
+    float: left;
+    width: calc(100% - 130px);
+} */
+ .imageset{
+    margin-top: 5px;
+}
+/* .imageset .img1{
+    float: left;
+    width: 130px;
+}
+.imageset .img2{
+    float: left;
+    width: calc(100% - 130px);
+} */
+.details .aboutdetail{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: #a3b1bf;
+    margin-top: 20px;
+}
+.details .aboutus{
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: bold;
+    color: #a3b1bf;
+    margin-top: 20px;
+}
+.aboutdetail .mr{
+    margin-left: 10px;
+}
+.details .inputbar{
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    color: #ffff;   
+    background-color: #4e5c6c;
+    border: 1px solid #4e5c6c;
+    position: relative;
+}
+::placeholder {
+    color: #a3b1bf;
+}
+.details .sendbtn{
+    position: absolute;
+    bottom: 52px;
+    left: 180px;
+    background-color: #00bc9c;
+    color: #ffffff;
+    padding: 8px 10px;
+    font-family: 'Source Sans Pro';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footermenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.footermenu li{
+    display: inline;
+    margin: 0 7px;
+}
+
+.footermenu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: #707e8c;
+}
+.footermenu li:first-child{
+    margin-left: 0;
+}
+.footermenu li:last-child{
+    
+    float: right;
+    margin-right: 0;
+    
+}
+.footermenu .footerbtn{
+    background-color: #3c5065;
+    color: #707e8c;
+
+}
+
+.footer2{
+    background-color: #283645;
+    color: #707e8c;
+    padding: 30px 0;
+}
+
+.copyrights{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.subscribe-btn {
+    padding: 8px 15px !important;
+    color: #707e8c;
+    color: white;
+    background-color: #425c78;
+
+}
+.subscribe-btn:hover {
+    background-color: white;
+    color: #425c78;
+
+}
+
+/* rwb */
+
+@media only screen and (max-width:950px) {
+    
+    .address {
+        display: none;
+    }
+    .social-icons{
+        text-align: center;
+    }
+
+    
+   
+ }
+
+ 
+    @media only screen and (max-width:740px) {
+
+        .featured {
+            margin: 80px 0;
+        }
+        .myservices .servicedescription {
+            margin: 0 25px;
+        }
+ }
+
+
+
+
+  @media only screen and (max-width:520px) {    
+  
+    .banner{
+        height: 500px;
+    }
+    .featured .mybtn{
+        margin-top: 40px;
+    }
+    .featured{
+        margin: 0;
+        padding: 109px 0;
+    }
+    .details .heady{
+        font-size: 35px;
+
+    }
+    .details .intro{
+        font-size: 20px;
+    }
+    #check:checked ~ .menu{
+        margin-left: 0;
+    }
+    .services{
+        padding: 50px 0;
+    }
+    .myservices .servicetitle{
+        font-size: 25px;
+
+    }
+    .myservices .servicedescription{
+        font-size: 20px;
+        margin: 0 10px;
+        
+    }
+    .gallery{
+        padding: 50px 0;
+    }
+    .gallery-text .gallerytitle{
+        font-size: 25px;
+
+    }
+    .gallery-text .gallerydescription{
+        font-size: 20px;
+        margin: 0 10px;
+        
+    }
+    .g-img:first-child{
+        margin-bottom: 15px;
+    }
+    .getintouch{
+        padding: 50px 0;
+    }
+    .getintouch .workcontainer .workheading h3{
+        font-size: 25px;
+
+    }
+    .getintouch .workcontainer .workdetail p{
+        font-size: 20px;
+        margin: 0 10px;
+
+
+    }
+    .myfooter1{
+        text-align: center;
+    }
+    .myfooter1 .details{
+        margin-bottom: 30px;
+    }
+    .subbtn{
+        background-color: #00bc9c;
+    color: #ffffff;
+    padding: 30px 35px;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    }
+    .aboutdetail .inputbar{
+        width: 50%;
+        text-align: center;
+
+    }
+    .footer2 .footermenu{
+        display: none;
+    }
+    .footer2 .copyrights{
+        text-align: center;
+    }
+     
+    
+ }
